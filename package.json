@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "ISC",
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon ./bin/www",
     "client": "npm start --prefix client",
     "test": "mocha --recursive --exit --timeout 10000",
