@@ -6,7 +6,7 @@ client/node_modules
 client/build
 client/.gitignore
 client/README.md
-client/public
+client/public/*
 
 public/*
 !public/images
