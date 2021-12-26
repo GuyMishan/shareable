@@ -3,6 +3,7 @@ variables.env
 *.log
 
 client/node_modules
+client/build
 client/.gitignore
 client/README.md
 
